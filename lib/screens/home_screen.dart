@@ -6,10 +6,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter Demo'),
-        ),
+    return Scaffold(              
         body: GameWidget(game: MyFirstGame())
       );
   }
